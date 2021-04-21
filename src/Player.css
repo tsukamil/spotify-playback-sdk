@@ -1,0 +1,62 @@
+/** Now Playing **/
+
+.now-playing__name {
+    font-size: 1.2em;
+    margin-bottom: 0.2em;
+}
+
+.now-playing__artist {
+    margin-bottom: .7em;
+}
+
+.now-playing__status {
+    margin-bottom: .7em;
+}
+
+.now-playing__img {
+    height: 120px;
+    width: 120px;
+    margin-bottom: 1em;
+
+}
+
+@keyframes beat {
+    from {
+      transform: scale(1);
+    }
+    to {
+      transform: scale(1.03);
+    }
+  }
+
+.now-playing__img img {
+    width: 100%;
+    height: 100%;
+}
+
+.now-playing__img.is-playing img {
+    animation: beat .8s infinite alternate;
+}
+
+.now-playing__side {
+}
+
+/** Progress **/
+
+.progress {
+    border: 1px solid #eee;
+    height: 6px;
+    border-radius: 3px;
+    overflow: hidden;
+}
+
+.progress__bar {
+    background-color: #eee;
+    height: 4px;
+}
+
+/** Buttons **/
+
+.buttons {
+    margin-top: 1em;
+}
