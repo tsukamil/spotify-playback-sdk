@@ -2,6 +2,8 @@
 
 I made some improvments to the original but what is the most important, I added Web Playback SDK support. Since then you are able to play music directly from your web browser and you dont have to play music by your own in Spotify app.
 
+!!! WORKS ONLY WITH PREMIUM SPOTIFY USERS !!!
+
 You can read in depth blog post that accompanies this code originally, here: [https://medium.com/@joekarlsson/how-to-build-a-spotify-player-with-react-in-15-minutes-7e01991bc4b6](https://medium.com/@joekarlsson/how-to-build-a-spotify-player-with-react-in-15-minutes-7e01991bc4b6)
 
 ## Quickstart
